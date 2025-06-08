@@ -1,51 +1,46 @@
 # Study Planner
 
-A full-stack web application designed to help students efficiently organize their study schedules, track progress, and boost productivity.
+A full-stack web app built to help students stay on top of their study goals, track their progress, and get more done, all in one place.
 
 ---
 
 ## Vision
 
-The **Study Planner** aims to empower learners by providing a seamless platform to plan, manage, and reflect on their study activities. By combining a simple, intuitive interface with robust backend functionality, the app seeks to enhance time management and motivation for users.
+The **Study Planner** is all about making learning more manageable and motivating. Whether you're prepping for finals or just trying to stay organized week to week, this app gives you the tools to plan your study time, monitor your progress, and reflect on your achievements, all through a clean and intuitive interface.
 
 ---
 
 ## Features
 
-### Implemented Features
-- **User Authentication:** Secure registration and login system with JWT token-based authentication.
-- **Master Dashboard:** Centralized page displaying user-specific study plans and progress.
-- **Task Management:** Create, edit, and delete study tasks.
-- **Private Routes:** Access control ensuring only logged-in users can see protected pages.
-- **Responsive Frontend:** Built with React for dynamic and smooth user experience.
-- **RESTful Backend API:** Django REST framework powers the backend.
+### What’s Already Built
+- **User Authentication** – Sign up and log in securely with JWT-based token authentication.
+- **Protected Pages** – Only logged-in users can access certain routes, keeping your info private.
+- **Responsive Design** – Smooth and user-friendly experience with a React-based frontend.
+- **RESTful API** – A Django REST Framework backend handles all the heavy lifting.
 
-### Planned Features
-- Calendar view for scheduling and visualization of tasks.
-- Notifications and reminders.
-- Study analytics and progress charts.
-- Collaborative study groups.
-- Mobile app integration.
-- Enhanced user profile customization.
-
----
-
-## Technology Stack
-
-- **Frontend:** React.js, React Router, Axios
-- **Backend:** Django, Django REST Framework
-- **Authentication:** Token-based auth with JWT
-- **Database:** SQLite (development), ready for PostgreSQL or others in production
-- **Version Control:** Git, GitHub
+### What’s Coming Next
+- **Dashboard** – Your personal hub to view study plans and track your progress.
+- **Task Management** – Easily add, edit, or remove study tasks.
+- **Calendar View** – Visualize your study schedule more effectively.
+- **Notifications & Reminders** – Stay on track with helpful nudges.
+- **Study Analytics** – Track your progress with charts and insights.
+- **Collaborative Study Groups** – Team up with friends to study together.
+- **Mobile Integration** – Study on the go with app support.
+- **User Profile Customization** – Make the app feel more like yours.
 
 ---
 
-## Contribution
+## Tech Stack
 
-Contributions are welcome! Feel free to open issues or submit pull requests with new features, bug fixes, or improvements.
+- **Frontend**: React.js, React Router, Axios  
+- **Backend**: Django, Django REST Framework  
+- **Authentication**: JWT (JSON Web Token)  
+- **Database**: SQLite (for development), ready to scale with PostgreSQL  
+- **Version Control**: Git + GitHub  
 
 ---
 
-## License
+## Contributing
 
-This project is open source and available under the MIT License.
+Got ideas or want to help out? Be my guest, I'll take any advice and any help I can get my hands on
+
