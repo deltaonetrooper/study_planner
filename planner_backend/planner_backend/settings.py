@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'dj_rest_auth',
-    'dj_rest_auth.registration',  # <-- required for registration URLs
+    'dj_rest_auth.registration',  
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -105,17 +105,6 @@ WSGI_APPLICATION = 'planner_backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'your_new_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 ACCOUNT_AUTHENTICATION_METHOD = 'username'
